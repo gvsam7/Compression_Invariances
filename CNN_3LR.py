@@ -34,7 +34,7 @@ LABELS = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')
 
 def arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--epochs", type=int, default=3)
+    parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--train-batch-size", type=int, default=100)
     parser.add_argument("--val-batch-size", type=int, default=100)
     parser.add_argument("--pred-batch-size", type=int, default=100)
